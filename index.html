@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel=" stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <form>
+      
+      <label for="fname">First Name</label>
+      <input type="text" id="fname"><br>
+      <label for="mname">Middle Name</label>
+      <input type="text" id="mname"><br>
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname"><br>
+      <label for="lname">Email</label>
+      <input type="email" id="email"><br>
+      <button type="button" id="click">Click Me</button>
+    </form>
+   </body>
+   <script>
+    var button = document.getElementById("click");
+    button.addEventListener("click",function(){
+      alert("trigger") 
+      console.log(document.getElementById("fname").value)
+      console.log(document.getElementById("fname").value)
+      console.log(document.getElementById("fname").value)
+      console.log(document.getElementById("fname").value)
+    })
+   </script>
+</html>

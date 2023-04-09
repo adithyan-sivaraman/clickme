@@ -1,0 +1,9 @@
+body{
+    background-color: lightblue;
+}
+label,input,button{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
